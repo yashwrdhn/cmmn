@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_0xtamx1" targetNamespace="http://bpmn.io/schema/cmmn" exporter="cmmn-js (https://demo.bpmn.io/cmmn)" exporterVersion="0.20.0">
+  <cmmn:case id="Case_1gb4lwy">
+    <cmmn:casePlanModel id="CasePlanModel_05661t6" name="A CasePlanModel">
+      <cmmn:planItem id="PlanItem_0aqze9r" definitionRef="Task_0n0c12i" />
+      <cmmn:planItem id="PlanItem_114o3aw" definitionRef="Task_091gqcc" />
+      <cmmn:planItem id="PlanItem_1esp8h5" definitionRef="Stage_1ihxav3" />
+      <cmmn:planItem id="PlanItem_0magav3" definitionRef="EventListener_0yokq4f" />
+      <cmmn:task id="Task_0n0c12i" />
+      <cmmn:task id="Task_091gqcc" />
+      <cmmn:stage id="Stage_1ihxav3" name="" />
+      <cmmn:eventListener id="EventListener_0yokq4f" name="" />
+    </cmmn:casePlanModel>
+  </cmmn:case>
+  <cmmndi:CMMNDI>
+    <cmmndi:CMMNDiagram id="CMMNDiagram_1">
+      <cmmndi:Size width="500" height="500" />
+      <cmmndi:CMMNShape id="DI_CasePlanModel_05661t6" cmmnElementRef="CasePlanModel_05661t6">
+        <dc:Bounds x="156" y="99" width="534" height="389" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_0aqze9r_di" cmmnElementRef="PlanItem_0aqze9r">
+        <dc:Bounds x="192" y="132" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_114o3aw_di" cmmnElementRef="PlanItem_114o3aw">
+        <dc:Bounds x="368" y="132" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1esp8h5_di" cmmnElementRef="PlanItem_1esp8h5">
+        <dc:Bounds x="253" y="228" width="350" height="200" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_0magav3_di" cmmnElementRef="PlanItem_0magav3">
+        <dc:Bounds x="175" y="310" width="36" height="36" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="193" y="346" width="0" height="0" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNShape>
+    </cmmndi:CMMNDiagram>
+  </cmmndi:CMMNDI>
+</cmmn:definitions>
